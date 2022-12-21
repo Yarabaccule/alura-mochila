@@ -1,0 +1,74 @@
+{
+    margin:0;
+    padding:0
+}
+
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle at 0% 0%, #985dff 0, #7450f1 25%, #4d42d4 50%, #1d34b7 75%, #00289c 100%);
+}
+
+.lugar{
+    width:1000px;
+    margin:auto;
+    display:flex;
+}
+
+.fundo-bag{
+    width:490px;
+    height:250px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    margin-right:10px;
+    margin-top:20px
+}
+
+.fundo-bag img{
+    width:200px;
+    height:auto;
+    margin:20px
+}
+
+.fundo-bag2{
+    width:490px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    margin-right:10px;
+    margin-top:20px
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+form{
+    margin-top:60px
+}
+
+button{
+    background-color: #B53CF2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    cursor: pointer
+}
+
+strong{
+    padding-right:10px
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.item{
+    margin-bottom:10px
+}
+
+.lista button{
+    margin-left:30px
+}
+
